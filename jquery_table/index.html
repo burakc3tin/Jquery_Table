@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Jquery Dynamic Table</title>
+</head>
+
+<body>
+
+
+    <div id="table_">
+        <table cellspacing="0">
+            <tr>
+                
+                <th> <input type="text" placeholder="Name" class="textinp" id="addname"></th>
+                <th> <input type="text" placeholder="Surname" class="textinp" id="surname"></th>
+                <th> <input type="text" placeholder="City" class="textinp" id="city"></th>
+                <th> <input type="text" placeholder="Job" class="textinp" id="job"></th>
+                <th> <input type="text" placeholder="Salary" class="textinp" id="salary"></th>
+                <th> <input type="button" value="Add" id="add" class="addinp"></th>
+                 
+
+            </tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Surname
+            </th>
+            <th>
+                City
+            </th>
+            <th>
+                Job
+            </th>
+            <th>
+                Salary
+            </th>
+         
+            <tr>
+                <td>Burak</td>
+                <td>Çetin</td>
+                <td>İstanbul</td>
+                <td>Computer Engineer</td>
+                <td>5000</td>
+                <td><button class="delete">Delete</button></td>
+
+            </tr>
+
+            <tr>
+                <td>Ali</td>
+                <td>Kemal</td>
+                <td>İzmir</td>
+                <td>Electiral Engineer</td>
+                <td>3900</td>
+                <td><button class="delete">Delete</button></td>
+
+
+            </tr>
+
+            <tr>
+                <td>Sezer</td>
+                <td>Yılmaz</td>
+                <td>Konya</td>
+                <td>UX Designer</td>
+                <td>3200</td>
+                <td><button class="delete">Delete</button></td>
+
+
+            </tr>
+
+            <tr>
+                <td>Murat</td>
+                <td>Soner</td>
+                <td>Bursa</td>
+                <td>Sales Consultant</td>
+                <td>4000</td>
+                <td><button class="delete">Delete</button></td>
+
+
+            </tr>
+          
+
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>

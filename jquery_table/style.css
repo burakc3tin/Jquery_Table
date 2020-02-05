@@ -1,0 +1,97 @@
+body{
+background-color: #F5DC9C;
+
+}
+
+#table_{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+table{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+    background-image: url("images.jpeg");
+    color:#F3EDEC;
+    border-radius: 10px;
+    border:1px solid brown;
+}
+table th,tr,td{
+
+    padding: 10px;
+}
+
+th{
+    font-size: 20px;
+}
+ td{
+    font-size: 19px;
+  
+}
+
+.delete{
+    border-radius: 8px;
+
+    padding:7px;
+    cursor:pointer;
+    background-color:#F3EDEC;
+    color:black;
+    font-family: 'Kulim Park', sans-serif;
+ border:1px solid black;
+    border-radius: 8px;
+    
+ }
+
+ 
+.delete:hover{
+    border-radius: 8px;
+
+    padding:7px;
+    cursor:pointer;
+    background-color:#F3EDEC;
+    color:brown;
+    font-family: 'Kulim Park', sans-serif;
+ 
+     
+ }
+
+
+button:focus {outline:0;}
+
+tr:not(:first-child):not(:nth-child(2)):hover{color:black;
+    cursor:pointer;
+    background-color: white;
+}
+
+
+.textinp{
+    font-size: 16px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+padding:5px;
+    border-radius: 8px;
+}
+
+.addinp{
+
+    border-radius: 8px;
+
+    padding:15px;
+    cursor:pointer;
+    background-color:#F3EDEC;
+    color:black;
+    font-family: 'Kulim Park', sans-serif;
+ border:1px solid black;
+    border-radius: 8px;
+}
+
+
+.addinp:hover{
+
+    border-radius: 8px;
+
+    padding:15px;
+    cursor:pointer;
+    background-color:#F3EDEC;
+    color:brown;
+    font-family: 'Kulim Park', sans-serif;
+}
